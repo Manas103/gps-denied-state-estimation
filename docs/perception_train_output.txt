@@ -1,0 +1,5 @@
+BearingCNN training, CPU only, 20000 synthetic patches (16000 train / 4000 val)
+final val_mae_norm=0.274494
+final val_mae_deg=9.4364
+val_resid_std_rad=0.208982
+This std informs BEARING_MEAS_SIGMA used by both estimators (config.py).

@@ -1,0 +1,3 @@
+=== AddressSanitizer + UBSan ===
+check_scorer: 4 checks passed
+single-threaded scorer code; no TSan run (no threading in this code path)

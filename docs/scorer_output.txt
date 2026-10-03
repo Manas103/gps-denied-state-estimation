@@ -1,0 +1,3 @@
+check_scorer: 4 checks passed
+diff: 2000 patches, max abs diff = 3.42726707e-07 (at patch 1265)
+bench: 2000 inferences, p50=44.1090 us, p95=54.8920 us, p99=84.2640 us, max=158.7480 us

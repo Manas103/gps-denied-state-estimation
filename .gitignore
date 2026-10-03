@@ -1,0 +1,22 @@
+# C++ build directories. Regenerate with (from cpp/):
+#   cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j2
+#   cmake -S . -B build_asan -DCMAKE_BUILD_TYPE=Debug -DENABLE_ASAN=ON && cmake --build build_asan -j2
+cpp/build/
+cpp/build_asan/
+cpp/build.log
+
+# Regenerable binary artifacts. Regenerate with (from python/):
+#   python export_weights.py
+weights/perception_weights.bin
+cpp/testdata/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Small, real artifacts we DO keep (negated explicitly, per repo hygiene):
+# the trained model itself, so the C++ side can be verified without
+# re-running training.
+!weights/perception_weights.pt

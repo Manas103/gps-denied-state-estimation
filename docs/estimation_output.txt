@@ -1,0 +1,4 @@
+N_FLIGHTS=200, elapsed=1496.8s
+Factor graph: mean RMS position error over 200 flights = 96.4939 m (std 58.2206, max 283.2544)
+EKF baseline: mean RMS position error over 200 flights = 118.0109 m (std 57.0117)
+EKF baseline: mean of per-flight max drift = 258.3299 m (max over all flights 770.6115 m)
